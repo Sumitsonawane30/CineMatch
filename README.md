@@ -1,98 +1,39 @@
-🎬 CineMatch – AI-Powered Movie Companion
-CineMatch is a Streamlit-based AI app that helps users discover movies by chatting with an intelligent assistant. Built with Python, OpenAI/Groq LLMs, and Streamlit, it lets you find movie recommendations, plot summaries, genre-based suggestions, and more — all through natural language.
+# 🎬 CineMatch – Find Your Fictional Twin
 
-Live Demo: Visit on Streamlit Cloud
-(Replace this link with your actual Streamlit deployment link)
+**CineMatch** is an AI-powered personality matcher that pairs users with iconic fictional characters across movies, shows, and anime based on their vibes and choices.
 
-🔧 Features
-🎥 Chat with an AI assistant to get personalized movie recommendations
+Built solo with ❤️ and tech wizardry by [Sumit Ishwar Sonawane](https://github.com/Sumitsonawane30), this GenAI project was designed to blend personality psychology, pop culture, and machine learning into a playful, intelligent experience.
 
-📚 Query based on genres, moods, actors, etc.
+---
 
-⚡ Fast response using LLMs like Groq/OpenAI
+## 🧠 The Idea
 
-🧠 Custom prompt engineering to improve relevance
+Ever watched a show and thought, *"Wait... am I literally this character?"*  
+CineMatch was born from that thought.
 
-🌐 Deployed using Streamlit Cloud
+🔮 It reads you.  
+🎭 It profiles you.  
+🍿 And it tells you who you'd be in a fictional multiverse.
 
-🖼️ Demo
-Coming soon: Add a gif or screenshot of your app UI
+---
 
-🚀 Tech Stack
-Python
+## ⚙️ Features
 
-Streamlit
+- 🧩 **Personality Quiz** – Answer thought-provoking, non-cringe questions.
+- 🤖 **LLM-Powered Matching** – Uses Groq + Mixtral to analyze your responses.
+- 🪞 **Real-Time Match Display** – See your character, their traits, and why you're alike.
+- 📱 **Sleek Streamlit Interface** – Mobile-friendly and minimal.
 
-Groq / OpenAI API
+---
 
-dotenv / Streamlit secrets
+## 🛠️ Built With
 
-📁 Project Structure
-graphql
-Copy
-Edit
-.
-├── app.py                # Main Streamlit app  
-├── prompts.py            # Prompt templates  
-├── utils.py              # API interaction logic  
-├── requirements.txt      # Python dependencies  
-└── .streamlit/
-    └── config.toml       # Streamlit config
-🔐 Setup & Installation
-Clone the repo:
+| Tech         | Use                        |
+|--------------|----------------------------|
+| Python       | Backend logic              |
+| Streamlit    | UI & frontend              |
+| Groq (Mixtral)| GenAI model integration   |
+| Git & GitHub | Version control            |
 
-bash
-Copy
-Edit
-git clone https://github.com/YourUsername/CineMatch.git  
-cd CineMatch
-Install dependencies:
+---
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Add your API keys:
-
-Option 1 – Using .streamlit/secrets.toml:
-
-toml
-Copy
-Edit
-[groq]  
-api_key = "your_groq_api_key"
-
-[openai]  
-api_key = "your_openai_api_key"
-Option 2 – On Streamlit Cloud:
-
-Paste the same values in your app’s “Secrets” tab.
-
-Run locally:
-
-bash
-Copy
-Edit
-streamlit run app.py
-🌍 Deployment on Streamlit Cloud
-Push your code to GitHub
-
-Go to https://streamlit.io/cloud and sign in with GitHub
-
-Click "New App", choose your repo
-
-Add secrets under “Secrets” tab
-
-Click "Deploy"
-
-💡 Future Enhancements
-Add mood-based recommendations
-
-Filter by streaming platform
-
-Save user preferences
-
-🧑‍💻 Author
-Sumit Sonawane
-LinkedIn
-GitHub
