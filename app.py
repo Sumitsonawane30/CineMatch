@@ -18,7 +18,7 @@ st.markdown("## 🔍 Discover Your On-Screen Twin")
 name = st.text_input("👤 Your Name", placeholder="e.g. Sumit")
 personality = st.text_area(
     "🧠 Describe your personality",
-    placeholder="e.g. I'm bubbly, curious, and a bit chaotic — like a blend of Geet and Jo Yi-seo."
+    placeholder="e.g. I'm the kind of person who loves helping others, stays curious about everything, and treats everyone with respect ."
 )
 
 # --- Button Action ---
